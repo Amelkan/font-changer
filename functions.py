@@ -29,3 +29,4 @@ def process_documents(source_folder):
             update_document_format(file_path)  # Важно: вызываем функцию, которая обновляет формат
         else:
             print(f"Файл {filename} не является .docx, пропускаем.")
+            
